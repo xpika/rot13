@@ -11,6 +11,6 @@ cabal-version:      >= 1.2
 build-type:         Simple
 extra-source-files: Test/rot13test.hs
 
-executable rotateMe
+executable rot13
     main-is:            Main.hs
     build-depends:      base , containers
