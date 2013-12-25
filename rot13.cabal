@@ -14,3 +14,9 @@ extra-source-files: Test/rot13test.hs
 executable rot13
     main-is:            Main.hs
     build-depends:      base , containers
+
+    
+Library
+  -- Modules exported by the library.
+  Exposed-modules:    Codec.Encryption.Rot13
+  build-depends:      base , containers
